@@ -10,11 +10,14 @@ h1 {
 
 label {
     font-family: "Roboto", sans-serif;
-    display: block;
+    
 }
 
+.block {
+    display: block;
+}
 button{
     font-family: "Roboto", sans-serif;
-    background-color: rgb(43, 0, 255);
+    background-color: rgb(131, 131, 131);
     color: aliceblue;
 }
