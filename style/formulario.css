@@ -1,23 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
 @import url("https://fonts.googleapis.com");
 
+body {
+    background-color: rgb(179, 133, 182);
+}
+main {
+    width:70%;
+    background-color: rgb(111, 111, 111);
+    mix-blend-mode:luminosity;
+    margin:30px auto;
+    padding: 40px;
 
+
+}
 
 h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 800;
-    color: rgb(37, 26, 255);
+    color: rgba(59, 59, 59, 0.507);
+    text-align: start;
+    mix-blend-mode: color-burn;
+    margin-bottom: 30px;
 }
+
+form {
+place-items: left;
+}
+
+
 
 label {
     font-family: "Roboto", sans-serif;
+    /* background-color: #33333368; */
+    color: #ffffff;
+    margin-top: 40px;
+    
     
 }
 
-.block {
+ /* .block {
     display: block;
+}  */
+
+#form_estilo {
+    /* gap: 0; */
 }
+
+
+
+#nome, #email, #senha {
+
+padding: 8px;
+width: 100%;
+border-radius: 10px;
+background-color: #ffffffce;
+
+
+}
+
+
+
+
+#nasc {
+    padding: 8px;
+        width: 100%;
+        border-radius: 10px;
+background-color: #ffffffce;
+
+
+input {
+    font-family: "Roboto", sans-serif;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
 button{
     font-family: "Roboto", sans-serif;
     background-color: rgb(131, 131, 131);
     color: aliceblue;
+    width: 100%;
+}
+
+.botao_texto {
+    display: flex;
+    border: 2px solid red;
+    background-color: #000000;
+    
+}
+
+.btn {
+
+   
+
+    margin: 12px 0px;
+    padding: 2% 3%;
+    
+    border-radius: 10px;
+    mix-blend-mode:color-burn;
+
+    background-color: #6f6f6f;
+    font-size: 18px;
+    color: rgb(255, 255, 255); 
+    z-index: 1;
+    
+}
+
+#txt_button{
+    position: relative;
+    bottom: 10px;
+    color:#ffffff;
+    z-index: 2;
 }

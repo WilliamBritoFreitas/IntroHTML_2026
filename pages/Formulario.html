@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="../style/formulario.css" />
   </head>
   <body>
-    <h1>Cadastro</h1>
-    <br />
+    <main>
+      <h1>Cadastro</h1>
+   
     <form>
-      <div>
+      <div class="form_estilo">
         <label class="block" for="nome">Nome</label>
         <input
           type="text"
@@ -28,7 +29,7 @@
           type="email"
           id="email"
           name="email"
-          size="60"
+          size="40"
           required
           placeholder="Digite seu email"
         />
@@ -47,7 +48,7 @@
       <div>
         <div>
           <label class="block" for="nasc">Data de Nascimento</label>
-          <input type="date" name="nasc" required />
+          <input type="date" id="nasc" name="nasc" required />
         </div>
         <div>
           <legend>Qual o seu nivel?</legend>
@@ -88,10 +89,16 @@
             <input type="checkbox" name="stack" id="js" value="js" />
             <label for="js">Java Script</label>
           </div>
-        </div>
+        </div class="botao_texto">
+        
+          <!-- <p id="txt_button">Cadastro</p> -->
 
-        <button>Cadastrar</button>
-      </div>
+          <button class="btn">Cadastro</button>
+        
+        </dsiv>
     </form>
+
+    </main>
+    
   </body>
 </html>
